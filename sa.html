@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Assignment</title>
+    <style>
+        body {
+            background-color: #E9D5B4; /* Light brown color */
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #A6734C; /* Darker version of light brown for the header */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #5D4736; /* Darker shade to contrast with light brown background */
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seat Assignment</h1>
+    </header>
+    <nav>
+        <a href="#section1" onclick="loadSection('section1')">Go to Section 1</a>
+        <a href="#section2" onclick="loadSection('section2')">Go to Section 2</a>
+    </nav>
+
+    <!-- Sections are hardcoded directly here -->
+    <div id="content">
+
+      <section>
+        <div><strong>Name:</strong> Alice</div>
+        <div><strong>Seat:</strong> A1</div>
+      </section>
+
+      <section>
+        <div><strong>Name:</strong> Bob</div>
+        <div><strong>Seat:</strong> B2</div>
+      </section>
+
+    </div>
+
+    <script>
+    </script>
+    
+</body>
+</html>
